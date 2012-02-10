@@ -1,0 +1,12 @@
+development:
+  website1:
+    address: 'smtp.exmail.qq.com'
+    port: 25,
+    domain: 'exmail.qq.com'
+    user_name: 'noreply@member.beltal.com'
+    password: '123456qaz'
+    authentication: 'login'
+
+test:
+
+production:
