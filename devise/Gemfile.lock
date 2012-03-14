@@ -54,7 +54,10 @@ GEM
       i18n (>= 0.4.0)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
+    metaclass (0.0.1)
     mime-types (1.17.2)
+    mocha (0.10.5)
+      metaclass (~> 0.0.1)
     multi_json (1.1.0)
     nifty-generators (0.4.6)
     orm_adapter (0.0.6)
@@ -112,6 +115,7 @@ PLATFORMS
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
   devise (= 2.0.4)
+  mocha
   nifty-generators
   rails (= 3.2.2)
   sass-rails (~> 3.2.3)
