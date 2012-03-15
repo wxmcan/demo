@@ -55,5 +55,15 @@ module Elasticemail
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+    config.action_mailer.delivery_method = :smtp
+    config.action_mailer.smtp_settings = {
+      :address => 'smtp.elasticemail.com',
+      :port => 2525,
+      :domain => 'beltal.com',
+      :user_name => 'admin@beltal.com',
+      :password => '17088798-7f61-4987-bb07-e5be5fdc6778',
+      :authentication => :plain
+    }
+
   end
 end
