@@ -1,5 +1,8 @@
 RefineryDevise::Application.routes.draw do
   devise_for :users
+  match "vault" =>"restricted_content#vault"
+  get "static/db_maintenance", :as=>"db_maintenance_message"
+  root :to => "static#home"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
