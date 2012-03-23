@@ -1,0 +1,7 @@
+<% ab_test "signup_title", {"short" => 1}, {"bold" => 100} do |style| %>
+  <div class="signup_<%= style %>">
+    <h1>Sign Up<%= " for FREE" if style == "bold" %></h1>
+    ...
+  </div>
+<% end %>
+<%= link_to 'done', '/users/index' %>

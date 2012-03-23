@@ -1,4 +1,8 @@
 Split::Application.routes.draw do
+  get "users/new"
+  get "users/index"
+  mount Split::Dashboard, at: 'split'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
