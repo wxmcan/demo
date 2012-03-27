@@ -55,5 +55,28 @@ module RefineryDevise
 
     # Version of your assets, change this if you want to expire all your assets
     config.assets.version = '1.0'
+
+    config.before_initialize do
+      require 'restrict_refinery_to_refinery_users'
+    end
+
+    config.to_prepare do
+
+      #restrict access to refinery page and blog controllers and views to refinery users
+      #PagesController.send :include, RestrictRefineryToRefineryUsers
+      #PagesController.send :before_filter, :restrict_refinery_to_refinery_users
+
+      #BlogController.send :include, RestrictRefineryToRefineryUsers
+      #BlogController.send :before_filter, :restrict_refinery_to_refinery_users
+
+      #restrict access to refinery admin controllers and views to refinery users
+#      Refinery::AdminController.send :include, RestrictRefineryToRefineryUsers
+      #Refinery::AdminController.send :before_filter, :restrict_refinery_to_refinery_users
+
+      #Admin::RefinerySettingsController.send :include, RestrictRefineryToRefineryUsers
+#      Admin::RefinerySettingsController.send :before_filter, :restrict_refinery_to_refinery_users
+
+    end
+
   end
 end

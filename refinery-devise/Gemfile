@@ -28,3 +28,4 @@ gem 'refinerycms-images', '2.0.2'
 gem 'refinerycms-pages', '2.0.2'
 gem 'refinerycms-resources', '2.0.2'
 gem "refinerycms-authentication", "2.0.2"
+gem "refinerycms-blog"
