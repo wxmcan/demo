@@ -5,3 +5,4 @@
 *.swo
 *.swp
 aws-ses/config/initializers/amazon_ses.rb
+*/test
