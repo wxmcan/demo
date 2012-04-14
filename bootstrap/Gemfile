@@ -22,5 +22,6 @@ end
 
 gem 'jquery-rails'
 gem 'nifty-generators'
+gem "twitter-bootstrap-rails"
 
 gem "mocha", :group => :test
