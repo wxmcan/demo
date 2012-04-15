@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Refinerycms::Application.config.secret_token = '6923197154c13bc14fa65a67f9132831f08c2294949dd22a9c7058ecfdbd2fc9d9295806a64129209a141ba172757ec11fd03451774612929c4d38b78499c33e'
+Refinerycms::Application.config.secret_token = '55ee96f7d4d8254202f518c544a47b7dd3ae9dc2e8d7ebba3624ddfa9d291f9eeb265abb54da980f688d6bf4c86d2f8a68cf667e587957d72e0eb37471ee3c41'
