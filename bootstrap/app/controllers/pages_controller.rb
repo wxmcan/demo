@@ -1,6 +1,6 @@
 class PagesController < ApplicationController
   def index
-    @pages = Page.all
+    @pages = Page.order("id DESC")
   end
 
   def show
@@ -37,5 +37,11 @@ class PagesController < ApplicationController
     @page = Page.find(params[:id])
     @page.destroy
     redirect_to pages_url, :notice => "Successfully destroyed page."
+  end
+
+  def defaults_layout
+  end
+
+  def fluid_layout
   end
 end

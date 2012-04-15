@@ -1,6 +1,8 @@
 Bootstrap::Application.routes.draw do
   resources :pages
   root :to => 'pages#index'
+  get 'defaults_layout' => 'pages#defaults_layout' 
+  get 'fluid_layout' => 'pages#fluid_layout' 
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

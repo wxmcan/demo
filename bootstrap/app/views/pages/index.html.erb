@@ -1,5 +1,8 @@
 <%- model_class = Page.new.class -%>
 <h1><%=t '.title', :default => model_class.model_name.human.pluralize %></h1>
+<%= link_to t('.new', :default => t("helpers.links.new")),
+            new_page_path,
+            :class => 'btn btn-primary' %>
 <table class="table table-striped">
   <thead>
     <tr>
