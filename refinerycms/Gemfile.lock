@@ -189,6 +189,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
+  devise
   jquery-rails
   rails (= 3.2.2)
   refinerycms (~> 2.0.0)
