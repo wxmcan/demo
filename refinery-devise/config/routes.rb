@@ -11,7 +11,7 @@ RefineryDevise::Application.routes.draw do
   get "static/db_maintenance", :as=>"db_maintenance_message"
   root :to => "static#home"
 
-  mount Refinery::Core::Engine, :at => '/refinery'
+  mount Refinery::Core::Engine, :at => '/cms'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

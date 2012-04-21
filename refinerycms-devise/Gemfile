@@ -30,7 +30,7 @@ gem 'refinerycms-dashboard', '2.0.2'
 gem 'refinerycms-images', '2.0.2'
 gem 'refinerycms-resources', '2.0.2'
 gem 'refinerycms-pages', '2.0.2'
-gem 'refinerycms-settings', '2.0.1'
+#gem 'refinerycms-settings', '2.0.1'
 
 #gem 'refinerycms-generators', '2.0.2'
 #gem "refinerycms-authentication", "2.0.2"

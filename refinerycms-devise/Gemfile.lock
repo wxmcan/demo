@@ -130,8 +130,6 @@ GEM
       dragonfly (~> 0.9.8)
       rack-cache (>= 0.5.3)
       refinerycms-core (= 2.0.2)
-    refinerycms-settings (2.0.1)
-      refinerycms-core (~> 2.0.1)
     sass (3.1.15)
     sass-rails (3.2.5)
       railties (~> 3.2.0)
@@ -172,7 +170,6 @@ DEPENDENCIES
   refinerycms-images (= 2.0.2)
   refinerycms-pages (= 2.0.2)
   refinerycms-resources (= 2.0.2)
-  refinerycms-settings (= 2.0.1)
   sass-rails (~> 3.2.3)
   sqlite3
   uglifier (>= 1.0.3)
