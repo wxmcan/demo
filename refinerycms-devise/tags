@@ -1,0 +1,72 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddUsernameToUsers	db/migrate/20120418151040_add_username_to_users.rb	/^class AddUsernameToUsers < ActiveRecord::Migration$/;"	c
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:RefinerycmsDevise
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+BrowsingTest	test/performance/browsing_test.rb	/^class BrowsingTest < ActionDispatch::PerformanceTest$/;"	c
+CreateRefinerycmsAuthenticationSchema	db/migrate/20120418095716_create_refinerycms_authentication_schema.refinery_authentication.rb	/^class CreateRefinerycmsAuthenticationSchema < ActiveRecord::Migration$/;"	c
+CreateRefinerycmsImagesSchema	db/migrate/20120418095717_create_refinerycms_images_schema.refinery_images.rb	/^class CreateRefinerycmsImagesSchema < ActiveRecord::Migration$/;"	c
+CreateRefinerycmsPagesSchema	db/migrate/20120418095719_create_refinerycms_pages_schema.refinery_pages.rb	/^class CreateRefinerycmsPagesSchema < ActiveRecord::Migration$/;"	c
+CreateRefinerycmsResourcesSchema	db/migrate/20120418095718_create_refinerycms_resources_schema.refinery_resources.rb	/^class CreateRefinerycmsResourcesSchema < ActiveRecord::Migration$/;"	c
+CreateRefinerycmsSettingsSchema	db/migrate/20120419000049_create_refinerycms_settings_schema.refinery_settings.rb	/^class CreateRefinerycmsSettingsSchema < ActiveRecord::Migration$/;"	c
+CreateRoles	db/migrate/20120418081846_create_roles.rb	/^class CreateRoles < ActiveRecord::Migration$/;"	c
+CreateRolesUsers	db/migrate/20120418062555_create_roles_users.rb	/^class CreateRolesUsers < ActiveRecord::Migration$/;"	c
+CreateSeoMeta	db/migrate/20120418095720_create_seo_meta.seo_meta_engine.rb	/^class CreateSeoMeta < ActiveRecord::Migration$/;"	c
+CreateUserPlugins	db/migrate/20120418081933_create_user_plugins.rb	/^class CreateUserPlugins < ActiveRecord::Migration$/;"	c
+DeviseCreateUsers	db/migrate/20120418030333_devise_create_users.rb	/^class DeviseCreateUsers < ActiveRecord::Migration$/;"	c
+RefineryPatch	lib/refinery/refinery_patch.rb	/^module RefineryPatch$/;"	m
+RefinerycmsDevise	config/application.rb	/^module RefinerycmsDevise$/;"	m
+RestrictRefineryToRefineryUsers	lib/refinery/restrict_refinery_to_refinery_users.rb	/^module RestrictRefineryToRefineryUsers$/;"	m
+RestrictedContentController	app/controllers/restricted_content_controller.rb	/^class RestrictedContentController < ApplicationController$/;"	c
+Role	app/models/role.rb	/^class Role < ActiveRecord::Base$/;"	c
+RoleTest	test/unit/role_test.rb	/^class RoleTest < ActiveSupport::TestCase$/;"	c
+RolesUsers	app/models/roles_users.rb	/^class RolesUsers < ActiveRecord::Base$/;"	c
+RolesUsersTest	test/unit/roles_users_test.rb	/^class RolesUsersTest < ActiveSupport::TestCase$/;"	c
+StaticController	app/controllers/static_controller.rb	/^class StaticController < ApplicationController$/;"	c
+User	app/models/user.rb	/^class User < Refinery::Core::BaseModel$/;"	c
+UserPlugin	app/models/user_plugin.rb	/^class UserPlugin < ActiveRecord::Base$/;"	c
+UserPluginTest	test/unit/user_plugin_test.rb	/^class UserPluginTest < ActiveSupport::TestCase$/;"	c
+UserTest	test/unit/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+Users	app/controllers/users/sessions_controller.rb	/^class Users::SessionsController < Devise::SessionsController$/;"	c
+[]	app/models/role.rb	/^  def self.[](title)$/;"	F	class:Role
+add_role	app/models/user.rb	/^  def add_role(title)$/;"	f
+authenticate_refinery_user!	lib/refinery/refinery_patch.rb	/^  def authenticate_refinery_user!$/;"	f	class:RefineryPatch
+authorized_plugins	app/models/user.rb	/^  def authorized_plugins$/;"	f
+block_login_during_maintenance	app/controllers/users/sessions_controller.rb	/^  def block_login_during_maintenance$/;"	f	class:Users
+camelize_title	app/models/role.rb	/^  def camelize_title(role_title = self.title)$/;"	f	class:Role
+can_delete?	app/models/user.rb	/^  def can_delete?(user_to_delete = self)$/;"	f
+can_edit?	app/models/user.rb	/^  def can_edit?(user_to_edit = self)$/;"	f
+change	db/migrate/20120418030333_devise_create_users.rb	/^  def change$/;"	f	class:DeviseCreateUsers
+change	db/migrate/20120418062555_create_roles_users.rb	/^  def change$/;"	f	class:CreateRolesUsers
+change	db/migrate/20120418081846_create_roles.rb	/^  def change$/;"	f	class:CreateRoles
+change	db/migrate/20120418081933_create_user_plugins.rb	/^  def change$/;"	f	class:CreateUserPlugins
+change	db/migrate/20120418095716_create_refinerycms_authentication_schema.refinery_authentication.rb	/^  def change$/;"	f	class:CreateRefinerycmsAuthenticationSchema
+change	db/migrate/20120418095717_create_refinerycms_images_schema.refinery_images.rb	/^  def change$/;"	f	class:CreateRefinerycmsImagesSchema
+change	db/migrate/20120418095718_create_refinerycms_resources_schema.refinery_resources.rb	/^  def change$/;"	f	class:CreateRefinerycmsResourcesSchema
+change	db/migrate/20120418151040_add_username_to_users.rb	/^  def change$/;"	f	class:AddUsernameToUsers
+change	db/migrate/20120419000049_create_refinerycms_settings_schema.refinery_settings.rb	/^  def change$/;"	f	class:CreateRefinerycmsSettingsSchema
+create_first	app/models/user.rb	/^  def create_first$/;"	f
+current_refinery_user	lib/refinery/refinery_patch.rb	/^  def current_refinery_user$/;"	f	class:RefineryPatch
+down	db/migrate/20120418095719_create_refinerycms_pages_schema.refinery_pages.rb	/^  def down$/;"	f	class:CreateRefinerycmsPagesSchema
+down	db/migrate/20120418095720_create_seo_meta.seo_meta_engine.rb	/^  def self.down$/;"	F	class:CreateSeoMeta
+find_for_database_authentication	app/models/user.rb	/^    def find_for_database_authentication(conditions)$/;"	f	class:User
+has_role?	app/models/user.rb	/^  def has_role?(title)$/;"	f
+home	app/controllers/static_controller.rb	/^  def home$/;"	f	class:StaticController
+included	lib/refinery/refinery_patch.rb	/^  def self.included(base)$/;"	F	class:RefineryPatch
+plugins=	app/models/user.rb	/^  def plugins=(plugin_names)$/;"	f
+redirect_back_or_default	lib/refinery/refinery_patch.rb	/^  def redirect_back_or_default(default)$/;"	f	class:RefineryPatch
+refinery_user?	lib/refinery/refinery_patch.rb	/^  def refinery_user?$/;"	f	class:RefineryPatch
+refinery_user_signed_in?	lib/refinery/refinery_patch.rb	/^  def refinery_user_signed_in?$/;"	f	class:RefineryPatch
+restrict_refinery_to_refinery_users	lib/refinery/restrict_refinery_to_refinery_users.rb	/^  def restrict_refinery_to_refinery_users$/;"	f	class:RestrictRefineryToRefineryUsers
+store_location	lib/refinery/refinery_patch.rb	/^  def store_location$/;"	f	class:RefineryPatch
+test_homepage	test/performance/browsing_test.rb	/^  def test_homepage$/;"	f	class:BrowsingTest
+to_param	app/models/user.rb	/^  def to_param$/;"	f
+to_s	app/models/user.rb	/^  def to_s$/;"	f
+up	db/migrate/20120418095719_create_refinerycms_pages_schema.refinery_pages.rb	/^  def up$/;"	f	class:CreateRefinerycmsPagesSchema
+up	db/migrate/20120418095720_create_seo_meta.seo_meta_engine.rb	/^  def self.up$/;"	F	class:CreateSeoMeta
