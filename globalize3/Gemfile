@@ -23,3 +23,5 @@ end
 gem 'jquery-rails'
 gem 'globalize3'
 gem 'nifty-generators'
+
+gem "mocha", :group => :test
