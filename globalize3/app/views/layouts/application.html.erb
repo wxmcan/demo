@@ -9,6 +9,8 @@
   </head>
   <body>
     <div id="container">
+      <%= link_to_unless_current "English", locale: "en" %> |
+      <%= link_to_unless_current "Wookieespeak", locale: "wk" %>
       <% flash.each do |name, msg| %>
         <%= content_tag :div, msg, :id => "flash_#{name}" %>
       <% end %>
