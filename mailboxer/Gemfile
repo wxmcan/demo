@@ -22,4 +22,5 @@ end
 
 gem 'jquery-rails'
 gem 'mailboxer', '0.6.5'
-gem 'kaminari'
+gem 'kaminari', '0.13.0'
+gem 'messaging', git: 'git://github.com/frodefi/rails-messaging.git'
