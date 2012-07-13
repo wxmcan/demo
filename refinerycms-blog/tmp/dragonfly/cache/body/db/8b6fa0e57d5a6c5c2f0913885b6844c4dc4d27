@@ -1,0 +1,110 @@
+/* line 1, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.comments_icon {
+  background-image: url(/assets/refinery/blog/icons/comments.png);
+}
+
+/* line 4, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.comment_icon {
+  background-image: url(/assets/refinery/blog/icons/comment.png);
+}
+
+/* line 7, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.comment_cross_icon {
+  background-image: url(/assets/refinery/blog/icons/comment_cross.png);
+}
+
+/* line 10, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.comment_tick_icon {
+  background-image: url(/assets/refinery/blog/icons/comment_tick.png);
+}
+
+/* line 13, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.folder_icon {
+  background-image: url(/assets/refinery/blog/icons/folder.png);
+}
+
+/* line 16, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.folder_add_icon {
+  background-image: url(/assets/refinery/blog/icons/folder_add.png);
+}
+
+/* line 19, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.folder_edit_icon {
+  background-image: url(/assets/refinery/blog/icons/folder_edit.png);
+}
+
+/* line 22, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.settings_icon {
+  background-image: url(/assets/refinery/blog/icons/cog.png);
+}
+
+/* line 25, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.page_icon {
+  background-image: url(/assets/refinery/blog/icons/page.png);
+}
+
+/* line 28, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.page_copy_icon {
+  background-image: url(/assets/refinery/blog/icons/page_copy.png);
+}
+
+/* line 31, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+.page_add_icon {
+  background-image: url(/assets/refinery/blog/icons/page_add.png);
+}
+
+/* line 34, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.collapsible_menu li {
+  position: relative;
+}
+
+/* line 37, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.collapsible_menu li span.arrow {
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  width: 11px;
+  height: 7px;
+  cursor: pointer;
+}
+
+/* line 46, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.collapsible_menu li span.arrow {
+  background-image: url(/assets/refinery/blog/icons/up.gif);
+}
+
+/* line 49, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.collapsible_menu li.closed span.arrow {
+  background-image: url(/assets/refinery/blog/icons/down.gif);
+}
+
+/* line 52, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.collapsible_menu > div {
+  width: 93%;
+  margin: 0px auto;
+}
+
+/* line 56, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.blog_categories {
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 5px;
+}
+
+/* line 62, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+ul.blog_categories, ul.blog_categories li {
+  list-style: none;
+  margin: 5px 0;
+}
+
+/* line 66, ../../../../../../../.rvm/gems/ruby-1.9.3-p125-perf/gems/refinerycms-blog-2.0.2/app/assets/stylesheets/refinery/blog/backend.css.scss */
+a#copy_body_link {
+  background: url(/assets/refinery/blog/icons/add.png) no-repeat scroll 0 6px transparent;
+  border-bottom: 0 none;
+  display: inline;
+  line-height: 29px;
+  margin-top: 0;
+  padding-left: 20px;
+}
