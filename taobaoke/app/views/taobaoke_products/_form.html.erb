@@ -1,0 +1,88 @@
+<%= form_for @taobaoke_product do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :num_iid %><br />
+    <%= f.number_field :num_iid %>
+  </p>
+  <p>
+    <%= f.label :title %><br />
+    <%= f.text_field :title %>
+  </p>
+  <p>
+    <%= f.label :nick %><br />
+    <%= f.text_field :nick %>
+  </p>
+  <p>
+    <%= f.label :price %><br />
+    <%= f.text_field :price %>
+  </p>
+  <p>
+    <%= f.label :pic_url %><br />
+    <%= f.text_field :pic_url %>
+  </p>
+  <p>
+    <%= f.label :click_url %><br />
+    <%= f.text_field :click_url %>
+  </p>
+  <p>
+    <%= f.label :commission %><br />
+    <%= f.text_field :commission %>
+  </p>
+  <p>
+    <%= f.label :commission_rate %><br />
+    <%= f.text_field :commission_rate %>
+  </p>
+  <p>
+    <%= f.label :commission_num %><br />
+    <%= f.number_field :commission_num %>
+  </p>
+  <p>
+    <%= f.label :commission_volume %><br />
+    <%= f.text_field :commission_volume %>
+  </p>
+  <p>
+    <%= f.label :coupon_price %><br />
+    <%= f.text_field :coupon_price %>
+  </p>
+  <p>
+    <%= f.label :coupon_rate %><br />
+    <%= f.text_field :coupon_rate %>
+  </p>
+  <p>
+    <%= f.label :coupon_start_time %><br />
+    <%= f.datetime_select :coupon_start_time %>
+  </p>
+  <p>
+    <%= f.label :coupon_end_time %><br />
+    <%= f.datetime_select :coupon_end_time %>
+  </p>
+  <p>
+    <%= f.label :volume %><br />
+    <%= f.number_field :volume %>
+  </p>
+  <p>
+    <%= f.label :shop_click_url %><br />
+    <%= f.text_field :shop_click_url %>
+  </p>
+  <p>
+    <%= f.label :seller_credit_score %><br />
+    <%= f.number_field :seller_credit_score %>
+  </p>
+  <p>
+    <%= f.label :item_location %><br />
+    <%= f.text_field :item_location %>
+  </p>
+  <p>
+    <%= f.label :shop_type %><br />
+    <%= f.text_field :shop_type %>
+  </p>
+  <p>
+    <%= f.label :taobaoke_cat_click_url %><br />
+    <%= f.text_field :taobaoke_cat_click_url %>
+  </p>
+  <p>
+    <%= f.label :keyword_click_url %><br />
+    <%= f.text_field :keyword_click_url %>
+  </p>
+  <p><%= f.submit %></p>
+<% end %>

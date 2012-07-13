@@ -1,0 +1,92 @@
+<% title "Taobaoke Product" %>
+
+<p>
+  <strong>Num Iid:</strong>
+  <%= @taobaoke_product.num_iid %>
+</p>
+<p>
+  <strong>Title:</strong>
+  <%= @taobaoke_product.title %>
+</p>
+<p>
+  <strong>Nick:</strong>
+  <%= @taobaoke_product.nick %>
+</p>
+<p>
+  <strong>Price:</strong>
+  <%= @taobaoke_product.price %>
+</p>
+<p>
+  <strong>Pic Url:</strong>
+  <%= @taobaoke_product.pic_url %>
+</p>
+<p>
+  <strong>Click Url:</strong>
+  <%= @taobaoke_product.click_url %>
+</p>
+<p>
+  <strong>Commission:</strong>
+  <%= @taobaoke_product.commission %>
+</p>
+<p>
+  <strong>Commission Rate:</strong>
+  <%= @taobaoke_product.commission_rate %>
+</p>
+<p>
+  <strong>Commission Num:</strong>
+  <%= @taobaoke_product.commission_num %>
+</p>
+<p>
+  <strong>Commission Volume:</strong>
+  <%= @taobaoke_product.commission_volume %>
+</p>
+<p>
+  <strong>Coupon Price:</strong>
+  <%= @taobaoke_product.coupon_price %>
+</p>
+<p>
+  <strong>Coupon Rate:</strong>
+  <%= @taobaoke_product.coupon_rate %>
+</p>
+<p>
+  <strong>Coupon Start Time:</strong>
+  <%= @taobaoke_product.coupon_start_time %>
+</p>
+<p>
+  <strong>Coupon End Time:</strong>
+  <%= @taobaoke_product.coupon_end_time %>
+</p>
+<p>
+  <strong>Volume:</strong>
+  <%= @taobaoke_product.volume %>
+</p>
+<p>
+  <strong>Shop Click Url:</strong>
+  <%= @taobaoke_product.shop_click_url %>
+</p>
+<p>
+  <strong>Seller Credit Score:</strong>
+  <%= @taobaoke_product.seller_credit_score %>
+</p>
+<p>
+  <strong>Item Location:</strong>
+  <%= @taobaoke_product.item_location %>
+</p>
+<p>
+  <strong>Shop Type:</strong>
+  <%= @taobaoke_product.shop_type %>
+</p>
+<p>
+  <strong>Taobaoke Cat Click Url:</strong>
+  <%= @taobaoke_product.taobaoke_cat_click_url %>
+</p>
+<p>
+  <strong>Keyword Click Url:</strong>
+  <%= @taobaoke_product.keyword_click_url %>
+</p>
+
+<p>
+  <%= link_to "Edit", edit_taobaoke_product_path(@taobaoke_product) %> |
+  <%= link_to "Destroy", @taobaoke_product, :confirm => 'Are you sure?', :method => :delete %> |
+  <%= link_to "View All", taobaoke_products_path %>
+</p>

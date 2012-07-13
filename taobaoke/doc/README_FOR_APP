@@ -1,2 +1,5 @@
 Use this README file to introduce your application and point to useful places in the API for learning more.
 Run "rake doc:app" to generate API documentation for your models, controllers, helpers, and libraries.
+
+
+rails g nifty:scaffold taobaoke_product cid:integer num_iid:integer title:string nick:string price:float pic_url:string click_url:string commission:float commission_rate:float commission_num:integer commission_volume:float coupon_price:float coupon_rate:float coupon_start_time:datetime coupon_end_time:datetime volume:integer shop_click_url:string seller_credit_score:integer item_location:string shop_type:string taobaoke_cat_click_url:string keyword_click_url:string status:integer

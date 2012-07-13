@@ -1,0 +1,57 @@
+<% title "Taobaoke Products" %>
+
+<table>
+  <tr>
+    <th>Num Iid</th>
+    <th>Title</th>
+    <th>Nick</th>
+    <th>Price</th>
+    <th>Pic Url</th>
+    <th>Click Url</th>
+    <th>Commission</th>
+    <th>Commission Rate</th>
+    <th>Commission Num</th>
+    <th>Commission Volume</th>
+    <th>Coupon Price</th>
+    <th>Coupon Rate</th>
+    <th>Coupon Start Time</th>
+    <th>Coupon End Time</th>
+    <th>Volume</th>
+    <th>Shop Click Url</th>
+    <th>Seller Credit Score</th>
+    <th>Item Location</th>
+    <th>Shop Type</th>
+    <th>Taobaoke Cat Click Url</th>
+    <th>Keyword Click Url</th>
+  </tr>
+  <% for taobaoke_product in @taobaoke_products %>
+    <tr>
+      <td><%= taobaoke_product.num_iid %></td>
+      <td><%= taobaoke_product.title %></td>
+      <td><%= taobaoke_product.nick %></td>
+      <td><%= taobaoke_product.price %></td>
+      <td><%= taobaoke_product.pic_url %></td>
+      <td><%= taobaoke_product.click_url %></td>
+      <td><%= taobaoke_product.commission %></td>
+      <td><%= taobaoke_product.commission_rate %></td>
+      <td><%= taobaoke_product.commission_num %></td>
+      <td><%= taobaoke_product.commission_volume %></td>
+      <td><%= taobaoke_product.coupon_price %></td>
+      <td><%= taobaoke_product.coupon_rate %></td>
+      <td><%= taobaoke_product.coupon_start_time %></td>
+      <td><%= taobaoke_product.coupon_end_time %></td>
+      <td><%= taobaoke_product.volume %></td>
+      <td><%= taobaoke_product.shop_click_url %></td>
+      <td><%= taobaoke_product.seller_credit_score %></td>
+      <td><%= taobaoke_product.item_location %></td>
+      <td><%= taobaoke_product.shop_type %></td>
+      <td><%= taobaoke_product.taobaoke_cat_click_url %></td>
+      <td><%= taobaoke_product.keyword_click_url %></td>
+      <td><%= link_to "Show", taobaoke_product %></td>
+      <td><%= link_to "Edit", edit_taobaoke_product_path(taobaoke_product) %></td>
+      <td><%= link_to "Destroy", taobaoke_product, :confirm => 'Are you sure?', :method => :delete %></td>
+    </tr>
+  <% end %>
+</table>
+
+<p><%= link_to "New Taobaoke Product", new_taobaoke_product_path %></p>

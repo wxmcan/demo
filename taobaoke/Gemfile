@@ -19,3 +19,6 @@ end
 
 gem 'jquery-rails'
 gem 'taobao', :git => 'git://github.com/yonggu/taobao.git'
+gem 'nifty-generators', '0.4.6'
+
+gem "mocha", :group => :test
